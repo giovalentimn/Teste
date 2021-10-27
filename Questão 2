@@ -1,0 +1,9 @@
+algoritmo
+	declare A, B, CONSUMO numerico
+ 		escreva "QUAL A DISNTÂNCIA?"
+  	LEIA A
+  		escreva "QUANTIDADE DE COMBUSTÍVEL?"
+  	LEIA B
+		CONSUMO <- A + B/2
+			escreva "O CONSUMO MÉDIO É  ", CONSUMO, " ."
+fim_algoritmo
