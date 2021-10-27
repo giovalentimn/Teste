@@ -1,0 +1,15 @@
+algoritmo
+ declare IDADEI, IDADEJ, IDADEK, IDADEX, IDADEY, M numerico
+ 	escreva "QUAL A IDADE DE I?"
+  LEIA IDADEI
+  	escreva "QUAL A IDADE DE J?"
+  LEIA IDADEJ
+  	escreva "QUAL A IDADE DE K?"
+  LEIA IDADEK
+ 	 escreva "QUAL A IDADE DE X?"
+  LEIA IDADEX
+  	escreva "QUAL A IDADE DE Y?"
+  LEIA IDADEY
+	M <- IDADEI + IDADEJ + IDADEK + IDADEX + IDADEY/5
+	escreva "A MÉDIA DAS IDADES DADAS É ", M, " ."
+fim_algoritmo
