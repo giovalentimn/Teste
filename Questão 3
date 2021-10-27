@@ -1,0 +1,18 @@
+algoritmo
+	declare NA, NB, NC, MENORN numerico
+ 		escreva "DIGITE O 1° NÚMERO"
+  	LEIA NA
+  		escreva "DIGITE O 2° NÚMERO"
+  	LEIA NB
+		escreva "DIGITE O 3° NÚMERO"
+  	LEIA NC
+  se NA<=NB E NA<=NC
+	entao  
+ 		escreva "O MENOR NÚMERO É ", NA, " ."
+	senao 
+  se NB<=NA E NB<=NC
+ 	entao 
+ 		escreva "O MENOR NÚMERO É ", NB, " ."
+  senao 
+ 		escreva "O MENOR NÚMERO É ", NC, " ."
+fim_algoritmo
